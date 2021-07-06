@@ -1,0 +1,20 @@
+{
+  "name": "book-cli",
+  "version": "1.0.0",
+  "description": "Book management CLI",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": {
+    "book-cli": "./commands.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Prabin Karki",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.11.0",
+    "inquirer": "^4.0.0",
+    "mongoose": "^4.13.2"
+  }
+}
