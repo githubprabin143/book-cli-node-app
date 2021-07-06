@@ -36,6 +36,11 @@ Commands:
   update|u <_id>   Update a book
   remove|r <_id>   Remove a book
   list|l           List all books
+
+  Example call:
+    $ book-cli list
+    $ book-cli add
+    $ book-cli --help
 ```
 ## App Info
 
